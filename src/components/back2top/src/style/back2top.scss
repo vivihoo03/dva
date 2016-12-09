@@ -1,0 +1,15 @@
+@charset "utf-8";
+@import '../../../../styles/var.1.0.0.scss';
+
+.ui_back2top {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: url('../img/btn_action_common_rest_top@2x.png') no-repeat;
+  background-size: 44px 44px;
+}
+

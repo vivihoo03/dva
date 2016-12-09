@@ -1,0 +1,46 @@
+@import '../../../../styles/var.1.0.0.scss';
+
+$h80: 80px;
+.uib_listview {
+  .wirelessListbg {
+    background: #ffffff;
+    border-radius: 5px;
+    height: $h80;
+    margin: 5px 10px;
+  }
+
+  .wirelessListMoney {
+    font-size: $xlarge;
+    float: left;
+    height: $h80;
+    line-height: $h80;
+    padding: 0 30px;
+    color: $orange;
+
+  }
+
+  .wirelessYen {
+    font-size: 12px;
+  }
+
+  .wirelessTitle {
+    font-size: $list;
+    color: $primary;
+    float: left;
+    margin-top: 30px;
+  }
+
+  .wirelessBtn {
+    float: right;
+    background: $deeporange;
+    color: $white;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: relative;
+  }
+}

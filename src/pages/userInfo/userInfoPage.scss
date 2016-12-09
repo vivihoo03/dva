@@ -1,0 +1,42 @@
+.Mtop-15 {
+    margin-top: 15px;
+}
+
+.info-wrap {
+    background: #fff;
+    padding-left: 15px;
+}
+
+.info-detail-wrap {
+    border-bottom: 1px solid #E4E4E4; 
+    display: -webkit-box;
+}
+
+.info-la-wrap {
+    width: 100px;
+}
+
+.info-la-txt {
+    line-height: 45px; 
+    font-size: 16px;
+}
+
+.info-input-wrap {
+    -webkit-box-flex: 1; 
+    display: -webkit-box; 
+    -webkit-box-pack: start; 
+    -webkit-box-align: center;
+}
+
+.info-btn-wrap {
+    margin:30px 15px 0 15px;
+    text-align: center;
+}
+
+.info-btn {
+    color:white;
+    line-height:45px;
+    background:#ff5346;
+    border-radius:2px;
+    font-size:18px;
+}

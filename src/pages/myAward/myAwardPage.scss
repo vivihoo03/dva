@@ -1,0 +1,61 @@
+body {
+    background: #e4e4e4; 
+    font-family: 微软雅黑;
+}
+
+.Mtop-10 {
+    margin-top: 10px;
+}
+
+.ticket-wrap {
+    position: relative; 
+    z-index: 1;
+}
+
+.ticket-detail-wrap {
+    padding: 15px;
+    display: box; 
+    display: -webkit-box; 
+    -webkit-box-shadow: 0 1px 1px 0 #f2f5fa; 
+    -moz-box-shadow: 0 1px 1px 0 #f2f5fa;
+    box-shadow: 0 1px 1px 0 #f2f5fa;
+    border-radius: 2px; 
+    background: #fff;
+    border:1px solid #E4E4E4;
+}
+
+.ticket-detail-title {
+    font-size: 18px; 
+    font-weight: bolder;
+}
+
+.ticket-detail-state {
+    font-size: 14px;
+}
+
+.ticket-get-wrap {
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    width: 110px;
+}
+
+.ticket-get {
+   font-size: 14px; 
+   width: 70px; 
+   height: 30px; 
+   line-height: 29px; 
+   text-align: center; 
+   border: 1px solid #ff5346; 
+   border-radius: 2px; 
+   background: #ff5346; 
+   color: white; 
+}
+
+.ticket-detail-header-wrap{
+  -webkit-box-flex: 1;
+}

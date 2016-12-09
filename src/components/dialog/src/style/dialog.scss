@@ -1,0 +1,64 @@
+@import '../../../../styles/var.1.0.0.scss';
+@import '../../../../styles/common.1.0.0.scss';
+
+.ui_dialog {
+  display: box;
+  display: -webkit-box;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  overflow-y: hidden;
+  .body {
+    box-sizing: border-box;
+    background: rgba($white, 0.9);
+    border-radius: 7px;
+    width: 90%;
+  }
+
+  .title {
+    padding: 20px 15px 10px 15px;
+    font-size: $title;
+    color: $primary;
+    text-align: center;
+    @extend %ellipsis;
+  }
+  .content {
+    padding: 0 15px;
+    padding-bottom: 20px;
+    font-size: $chint;
+    color: $secondary;
+    text-align: center;
+  }
+
+  .btn-wrap {
+    height: 44px;
+    line-height: 44px;
+    display: -webkit-box;
+    display: box;
+    width: 100%;
+    @extend %ui_border_top;
+    .btn {
+      text-align: center;
+      font-size: $list;
+      color: $link;
+      display: block;
+      -webkit-box-flex: 1;
+      box-flex: 1;
+      @extend %ellipsis;
+      @extend %ui_border_right;
+      &:last-child:after{
+        border:none;
+      }
+      width: 0;
+    }
+  }
+}
